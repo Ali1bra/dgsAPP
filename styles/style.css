@@ -30,11 +30,18 @@ body {
 
 
 
-@media screen and (min-width: 780px) {
+@media screen and (max-width: 780px) {
 
     body>* {
-        width: 900px;
+        width: 100%;
         margin: auto;
+    }
+}
+@media screen and (min-width: 840px) {
 
+        body>* {
+            min-width: 780px;
+        max-width: 900px;
+        margin: auto;
     }
 }
