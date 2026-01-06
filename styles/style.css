@@ -33,7 +33,7 @@ body {
 @media screen and (min-width: 780px) {
 
     body>* {
-        width: 750px;
+        width: 900px;
         margin: auto;
 
     }
