@@ -1,0 +1,42 @@
+.openings {
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(16, 16, 16);
+    padding: 15px;
+    border: 1px solid rgb(22, 22, 22);
+
+}
+
+.openings>.days {
+    margin-top: 10px;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .hours {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hoursLeft {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+
+        .circle {
+            height: 7px;
+            aspect-ratio: 1;
+            background-color: #7dff67;
+            border-radius: 1000px;
+        }
+
+    }
+
+    .hoursRight {
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,40 @@
+nav {
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(16, 16, 16);
+    padding: 10px 15px;
+    border: 1px solid rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    height: 100%;
+
+    .logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo>img {
+        height: 90%;
+        border-radius: 1000px;
+        box-shadow: 0px 0px 0px 1px rgb(223, 223, 223),
+            0px 0px 0px 2px rgb(128, 128, 128);
+    }
+
+    .logo>h1 {
+        font-size: 12px;
+
+    }
+}
+
+.bookingButton {
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30);
+    border: 1px solid rgb(45, 45, 45);
+    padding: 2.5px 10px;
+}

@@ -1,0 +1,31 @@
+.gallery {
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(16, 16, 16);
+    padding: 15px;
+    border: 1px solid rgb(22, 22, 22);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+.content>img {
+    width: 100%;
+    max-width: 229px;
+
+    border-radius: 10px;
+}
+
+.false{
+    display: none;
+}
+
+.true{
+    display: block;
+}

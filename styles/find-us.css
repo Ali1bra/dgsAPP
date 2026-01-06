@@ -1,0 +1,41 @@
+.find-us {
+    height: fit-content;
+    background-color: rgb(16, 16, 16);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(22, 22, 22);
+
+
+
+    Iframe {
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .find-us-container{
+        display: flex;
+        gap: 15px;
+
+    }
+    .socials{
+        width: fit-content;
+        height: 200px;
+         background-color: rgb(30, 30, 30);
+         border-radius: 10px;
+         border: 1px solid rgb(45, 45, 45);
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+
+        i{
+            font-size: 30px;
+        }
+
+        
+    }
+}
