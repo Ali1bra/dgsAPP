@@ -25,8 +25,8 @@ const createDays = [
     },
     {
         day: "Onsdag",
-        time: "09.00 - 17.30",
         time: "Lukket",
+        time: "09.00 - 17.30",
     },
     {
         day: "Torsdag",
