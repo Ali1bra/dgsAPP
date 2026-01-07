@@ -2,10 +2,18 @@ const galleryContent = document.querySelector(".content")
 
 
 const pictures = [
-/*     {
-        url: "gallery-images/fade.jpg",
-        alt: "skin fade"
-    }, */
+    {
+        url: "gallery-images/kunde1.jpg",
+        alt: "Klassisk klipning"
+    },
+    {
+        url: "gallery-images/kunde3.jpg",
+        alt: "Klassisk klipning"
+    },
+    {
+        url: "gallery-images/kunde2.jpg",
+        alt: "Klassisk klipning"
+    },
   
 
 ]
