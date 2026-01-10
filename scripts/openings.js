@@ -16,32 +16,32 @@ const createDays = [
     {
         day: "Mandag",
         time: "Lukket",
-        time: "09.00 - 17.30",
+        time: "09.30 - 17.30",
     },
     {
         day: "Tirsdag",
         time: "Lukket",
-        time: "09.00 - 17.30",
+        time: "09.30 - 17.30",
     },
     {
         day: "Onsdag",
         time: "Lukket",
-        time: "09.00 - 17.30",
+        time: "09.30 - 17.30",
     },
     {
         day: "Torsdag",
         time: "Lukket",
-        time: "09.00 - 17.30",
+        time: "09.30 - 17.30",
     },
     {
         day: "Fredag",
         time: "Lukket",
-        time: "09.00 - 17.30",
+        time: "09.30 - 17.30",
     },
     {
         day: "Lørdag",
         time: "Lukket",
-        time: "09.00 - 15.00",
+        time: "09.30 - 15.00",
     },
     {
         day: "Søndag",
