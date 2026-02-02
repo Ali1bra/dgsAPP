@@ -60,9 +60,10 @@
     </script>
 </head>
 
+
+
+
 <body>
-
-
 
     <!-- NAVIGATION -->
 
@@ -143,6 +144,15 @@
 
         </div>
     </section>
+
+        <section style="height:100vh; width: 100vw; background-color: rgba(0, 0, 0, 0.482); position: absolute; z-index: 100000; top: 0px; left: 0px; overflow: hidden; justify-content: center; align-items: center;" class="modal">
+        <div class="modalContainer" style=" width: 60vw; max-width: 400px; aspect-ratio: 1; display: flex;">
+        </div>
+    </section>
+
+
+
+    
 
     <!-- END -->
 
@@ -313,5 +323,28 @@
     <script src="scripts/fetch.js"></script>
     <!-- END -->
 </body>
+<script>
+  const modal = document.querySelector(".modal");
+  const modalContainer = document.querySelector(".modalContainer");
+  const contentImages = document.querySelectorAll(".content > img");
+
+  modal.style.display = "none";
+
+  contentImages.forEach((image) => {
+    image.addEventListener("click", () => {
+    window.scrollTo(0,0)
+      modal.style.display = "flex";
+      modalContainer.innerHTML = `
+        <img style="height: 100%; width: 100%; object-fit: cover;" src="${image.src}" alt="">
+      `;
+    });
+  });
+
+  modal.addEventListener("click", () => {
+    modal.style.display = "none";
+    modalContainer.innerHTML = ""; // valgfrit, rydder op
+  });
+</script>
+
 
 </html>
