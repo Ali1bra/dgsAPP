@@ -15,12 +15,12 @@ const createServices = [
     {
         service: "Pensionistklip",
         description: "Inkluderer styling af hår med voks",
-        price: 175
+        price: 150
     },
     {
         service: "Pensionistklip + Skægtrimning",
         description: "Inkluderer styling af hår med voks & barbering af kanter med ragekniv",
-        price: 275
+        price: 250
     },
     {
         service: "Fade",
