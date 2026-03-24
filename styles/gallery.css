@@ -31,3 +31,11 @@
 .true{
     display: block;
 }
+
+    @media screen and (max-width: 437px){
+        .content>img {
+            margin: auto;
+        }
+
+
+    }
